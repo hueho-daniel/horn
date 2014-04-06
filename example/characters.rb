@@ -107,6 +107,12 @@ sequence :heroes, title: "Meeting the heroes", using: :heroes do
   """
 
   speak """
+    Don't be afraid to use the same id for different types of elements, like using the same id for a sequence
+    and for a character - the engine is able to pickup the context in which such ids are used and do 
+    The Right Thing (TM)
+  """
+
+  speak """
     You can pass an array of namespaces for 'using' as well, and you can pass an array of characters
     to grab. Do note, however, that sometimes they may be name clashes, for instance, two different characters
     in the global and the heroes namespace, with the same identification. To specify the namespace, you need to use the
